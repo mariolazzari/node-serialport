@@ -1,0 +1,30 @@
+{
+  "name": "node-serialport",
+  "version": "1.0.0",
+  "description": "\"# node-serialport\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/node-serialport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariolazzari/node-serialport/issues"
+  },
+  "homepage": "https://github.com/mariolazzari/node-serialport#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "serialport": "^7.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
